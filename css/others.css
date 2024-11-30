@@ -1,0 +1,28 @@
+.main-section{
+    height: 50vh;
+    background-attachment: scroll;
+}
+
+.breadcrumb{
+    margin-top: 20px;
+}
+
+.breadcrumb span{
+    margin: 0 10px;
+}
+
+.breadcrumb a, .breadcrumb span{
+    color: var(--secondary-txt-color);
+}
+
+.breadcrumb p:last-child{
+    color: var(--third-back-color);
+}
+
+.breadcrumb a{
+    transition: all 0.3s ease;
+}
+
+.breadcrumb a:hover{
+    color: var(--third-back-color);
+}

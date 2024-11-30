@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autor - Oracle Red Bull Racing</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/others.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <script src="js/all.min.js"></script>
+    <script src="js/fontawesome.min.js"></script>
+</head>
+<body>
+    <header id="header" class="header fixed">
+        <div class="container">
+            <div class="flex justify-between align-center">
+                <div class="wrapper-logo">
+                    <a href="index.html">
+                        <p class="white-text">Oracle Red Bull Racing</p>
+                    </a>
+                </div>
+                <nav class="navigation">
+                    <ul class="wrapper-list flex align-center">
+                        <li>
+                            <a class="white-text" href="index.html">Početna</a>
+                        </li>
+                        <li>
+                            <a class="white-text" href="galerija.html">Galerija</a>
+                        </li>
+                        <li>
+                            <a class="white-text active" href="autor.html">O Autoru</a>
+                        </li>
+                        <li>
+                            <a class="white-text" href="kontakt.html">Kontakt</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="main-section flex align-center justify-center">
+            <div class="container">
+                <div class="row justify-center">
+                    <div class="col-xl-7">
+                        <div class="wrapper-content text-center">
+                            <div class="wrapper-title">
+                                <h1 class="white-text">Autor</h1>
+                            </div>
+                            <div class="wrapper-text">
+                                <p class="white-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="breadcrumb flex align-center justify-center">
+                                <a href="index.html">Početna</a>
+                                <span>/</span>
+                                <p>Autor</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="author-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="wrapper-img">
+                            <img src="images/vukasin.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="wrapper-title">
+                            <h2>O Meni</h2>
+                        </div>
+                        <div class="wrapper-text">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ipsam magnam laborum nihil, alias provident id obcaecati quae sapiente dolores possimus iste necessitatibus molestiae soluta, placeat perferendis ea velit cumque?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ipsam magnam laborum nihil, alias provident id obcaecati quae sapiente dolores possimus iste necessitatibus molestiae soluta, placeat perferendis ea velit cumque?</p>
+                        </div>
+                        <div class="wrapper-text">
+                            <p>Lorem ipsum dolor sit amet consectetur:</p>
+                        </div>
+                        <ul class="wrapper-list">
+                            <li>Lorem ipsum, dolor sit am.</li>
+                            <li>Lorem ipsum, dolor sit am.</li>
+                            <li>Lorem ipsum, dolor sit am.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <p class="copyright white-text text-center">© 2024 All Rights Reserved. Design by Vukašin Nešić 83.24</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+
+        let header = document.getElementById("header");
+
+        window.addEventListener("scroll", function(){
+
+            if(window.scrollY > 10){
+                header.style.backgroundColor = "#000";
+            }
+            else{
+                header.style.backgroundColor = "transparent";
+            }
+
+        });
+
+    </script>
+</body>
+</html>
